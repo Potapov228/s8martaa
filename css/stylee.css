@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Roboto Thin' ;
+  src: url(./fonts/Roboto-Thin.ttf);
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Montserrat&family=Oswald:wght@400;600;700&display=swap");
+* {
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+  }
+  
+body {
+    background-color: #fac5c5;
+    font-family: "", sans-serif;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding-top: 400px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 55px;
+    transition: 0.5s;
+}
+
+.btn {
+    border: 5px solid white;
+    background-color: #fac5c5 ;
+    padding: 25px;
+    border-radius: 60px;
+    transition: 0.5s;
+
+}
+
+.btn:hover {
+    background-color: #fac5c5;
+    border: 5px solid #2a79e0;
+}
+
+a:hover {
+    color: black;
+}
+
